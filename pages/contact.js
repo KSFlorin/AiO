@@ -5,6 +5,7 @@ import Root from '../components/common/Root';
 import Footer from '../components/common/Footer';
 
 
+
 const Contact = () => (
   <Root>
     <Head>
@@ -35,13 +36,7 @@ const Contact = () => (
              
               <div className="about-cjs mt-3 d-flex flex-row">
                 
-                                <form action="https://formspree.io/f/xayvdpld" method="POST">
-  <label for="name">Name</label>
-  <input id="name" type="text" autocomplete="name" required />
-  <button type="submit">Register</button>
-</form>
-            
-           
+
               </div>
             </div>
           </div>
