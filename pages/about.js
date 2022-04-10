@@ -35,7 +35,7 @@ const About = () => (
         <div className="col-sm-3 col-md-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/images/aboutus2.jpg" class="img-fluid"  alt="Allinone-About 1"/>
+              <img src="/images/aboutus2.jpg" className="img-fluid"  alt="Allinone-About 1"/>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@ const About = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/images/aboutus2.jpg"  class="img-fluid"  alt="Allinone-About 2"/>
+              <img src="/images/aboutus2.jpg"  className="img-fluid"  alt="Allinone-About 2"/>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ Any questions please don’t hesitate to contact me.
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/images/aboutus3.jpg" class="img-fluid"  alt="Allinone-About 3"/>
+              <img src="/images/aboutus3.jpg" className="img-fluid"  alt="Allinone-About 3"/>
             </div>
           </div>
         </div>
