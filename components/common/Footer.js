@@ -11,7 +11,7 @@ const Footer = () => (
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="https://www.allinone1.hk/"
+                href="https://commercejs.com/docs/"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -19,7 +19,7 @@ const Footer = () => (
                 About
               </a>
               <a
-                href="https://www.allinone1.hk/"
+                href="https://commercejs.com/features"
                 className="d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -29,7 +29,7 @@ const Footer = () => (
             </div>
             <div>
               <a
-                href="https://www.allinone1.hk/"
+                href="https://commercejs.com/about"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -37,7 +37,7 @@ const Footer = () => (
                 How to Order
               </a>
               <a
-                href="https://www.allinone1.hk/"
+                href="http://slack.commercejs.com/"
                 className="d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -54,7 +54,7 @@ const Footer = () => (
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="https://www.allinone1.hk/"
+                href="https://twitter.com/commercejs"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -62,7 +62,7 @@ const Footer = () => (
                 Facebook
               </a>
               <a
-                href="https://www.allinone1.hk/"
+                href="https://www.instagram.com/commerce.js/"
                 className="d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -70,8 +70,8 @@ const Footer = () => (
                 Whatsapp
               </a>
             </div>
-       
-              
+            <div>
+            
             </div>
           </div>
         </div>
