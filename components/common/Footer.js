@@ -11,36 +11,32 @@ const Footer = () => (
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="/about"
+                href="/"
                 className="mb-3 d-block font-color-medium"
-                target="_blank"
-                rel="noopener noreferrer"
+
               >
                 About
               </a>
               <a
-                href="/services"
+                href="/"
                 className="d-block font-color-medium"
-                target="_blank"
-                rel="noopener noreferrer"
+             
               >
                 Our Services
               </a>
             </div>
             <div>
               <a
-                href="/howto"
+                href="/"
                 className="mb-3 d-block font-color-medium"
-                target="_blank"
-                rel="noopener noreferrer"
+            
               >
                 How to Order
               </a>
               <a
                 href="/contact"
                 className="d-block font-color-medium"
-                target="_blank"
-                rel="noopener noreferrer"
+           
               >
                 Contact Us
               </a>
