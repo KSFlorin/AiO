@@ -24,17 +24,34 @@ const transitionStyles = {
 
 const mobileMenuLinks = [
   {
-    name: 'Home',
+    name: 'Upload photo',
     link: '/'
   },
+
   {
-    name: 'Shop',
-    link: '/collection'
+    name: 'How to order',
+    link: '/'
   },
+
   {
     name: 'About',
     link: '/about'
-  }
+  },
+
+  {
+    name: 'Services',
+    link: '/'
+  },
+  {
+    name: 'Products',
+    link: '/collection'
+  },
+  {
+    name: 'Contact',
+    link: '/'
+  },
+
+
 ];
 
 class Header extends Component {
@@ -185,10 +202,10 @@ class Header extends Component {
         >
           <div className="d-none d-sm-flex">
             <Link href="/collection">
-              <a className="mr-4 font-color-black">Shop</a>
+              <a className="mr-4 font-color-black">Upload a photo</a>
             </Link>
             <Link href="/about">
-              <a className="font-color-black">About</a>
+              <a className="font-color-black">Facebook </a>
             </Link>
           </div>
           <div className="logo-container">

@@ -6,7 +6,7 @@ const Footer = () => (
       <div className="row">
         <div className="col-12 col-sm-6 col-md-4">
           <p className="font-family-secondary font-size-display1 mb-4">
-            Commerce.js
+        Menu
           </p>
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
@@ -16,7 +16,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Documentation
+                About
               </a>
               <a
                 href="https://commercejs.com/features"
@@ -24,7 +24,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Features
+                Our Services
               </a>
             </div>
             <div>
@@ -34,7 +34,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                About
+                How to Order
               </a>
               <a
                 href="http://slack.commercejs.com/"
@@ -42,14 +42,14 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Community
+                Contact Us
               </a>
             </div>
           </div>
         </div>
         <div className="col-12 col-sm-6 col-md-4">
           <p className="font-family-secondary font-size-display1 mb-4">
-            Follow us
+           Social
           </p>
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
@@ -59,7 +59,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Twitter
+                Facebook
               </a>
               <a
                 href="https://www.instagram.com/commerce.js/"
@@ -67,7 +67,7 @@ const Footer = () => (
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Instagram
+                Whatsapp
               </a>
             </div>
             <div>
@@ -90,22 +90,41 @@ const Footer = () => (
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-4">
-          <p className="font-family-secondary font-size-display1 mb-3">
-            Newsletter
+
+
+
+<div className="col-12 col-sm-6 col-md-4">
+          <p className="font-family-secondary font-size-display1 mb-4">
+           Shop Now
           </p>
-          <div className="position-relative">
-            <input
-              className="borderbottom border-color-gray400 h-48 w-100 px-3"
-              placeholder="email address"
-            />
-            <button className="bg-transparent position-absolute right-0 top-50 translateY--50 pr-2 h-48">
-              <img src="/icon/arrow-long-right.svg" className="w-24" alt="Arrow icon"/>
-            </button>
+          <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
+            <div className="pr-5">
+              <a
+                href="https://twitter.com/commercejs"
+                className="mb-3 d-block font-color-medium"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook store
+              </a>
+              <a
+                href="https://www.instagram.com/commerce.js/"
+                className="d-block font-color-medium"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Upload a photo
+              </a>
+            </div>
+    
           </div>
         </div>
+
+
+
       </div>
     </div>
+
     <div className="pt-md-5">
       <div className="bg-brand300">
         <div className="custom-container d-flex flex-column flex-md-row align-items-center justify-content-between">

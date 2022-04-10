@@ -3,10 +3,10 @@ import Head from 'next/head';
 import Root from '../components/common/Root';
 import Footer from '../components/common/Footer';
 
-const About = () => (
+const Services = () => (
   <Root>
     <Head>
-      <title>About | Allinone</title>
+      <title>Our Services | commerce</title>
     </Head>
     <div className="about-container">
       {/* Row */}
@@ -14,19 +14,17 @@ const About = () => (
         <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 row-content">
             <div className="h-100 d-flex flex-column py-5 px-4 px-sm-5 justify-content-center">
               <h2 className="font-size-header mb-4">
-                About us
+                Commerce.js Demo Store
               </h2>
               <h4 className="font-size-subheader mb-4">
-              We strive to deliver top quality products fast and securely at affordable prices.
-              Our 24 hour customer service line is here to help you from first click until delivery and beyond. We undertake thorough quality assurance checks to ensure you receive the highest quality product possible.
-              Why shop for your desired items all over the internet?
+                This is an open source storefront built using Chec’s headless architecture and the Commerce.js SDK. Commerce.js is a smarter, more efficient way to build eCommerce projects, and we hope you can see that as you explore the world custom eCommerce. Please build on top of, or pick apart this project for your own use. Everything in this project, from the storefront, to the cart, checkout and receipt, is 100% customizable. To build more custom eCommerce projects, using any frontend framework or platform, head over to <a href="https://commercejs.com/" target="_blank" className="cjs-link" rel="noopener noreferrer">commercejs.com</a>.
               </h4>
               <div className="about-cjs mt-3 d-flex flex-row">
                 <a className="px-4 py-3 font-color-white about-doc" href="https://commercejs.com/docs/" target="_blank" rel="noopener noreferrer">
-                  Upload now
+                  Documentation
                 </a>
                 <a className="px-4 py-3 about-dev" href="https://commercejs.com/docs/community/" target="_blank" rel="noopener noreferrer">
-                  Go to our facebook page
+                  Guides from the community
                 </a>
               </div>
             </div>
@@ -35,7 +33,7 @@ const About = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/" alt="Allinone-About 1"/>
+              <img src="/cjs-illustration.svg" alt="Commerce.js illustration"/>
             </div>
           </div>
         </div>
@@ -46,7 +44,7 @@ const About = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/" alt="Allinone-About 2"/>
+              <img src="/netlify-illustration.svg" alt="Netlify illustration"/>
             </div>
           </div>
         </div>
@@ -99,7 +97,7 @@ const About = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/" alt="Allinone-About 3"/>
+              <img src="/github-illustration.svg" alt="GitHub illustration"/>
             </div>
           </div>
         </div>
@@ -110,7 +108,7 @@ const About = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/" alt="Allinone-About 4"/>
+              <img src="/blog-illustration.svg" alt="Commerce.js blog illustration"/>
             </div>
           </div>
         </div>
@@ -141,4 +139,4 @@ const About = () => (
   </Root>
 );
 
-export default About;
+export default Services;
