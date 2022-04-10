@@ -13,15 +13,11 @@ const Footer = () => (
             <div className="pr-5">
              
 
-            <Link href=" https://www.allinone1.hk/">
+            <Link href="/about">
                <a>About</a>
               </Link>
 
-               <Link href=" https://www.allinone1.hk/">
-               <a>Services</a>
-              </Link>  
-
-
+              
             </div>
             <div>
               <a
@@ -32,7 +28,7 @@ const Footer = () => (
                 How to Order
               </a>
               <a
-                href="https://www.allinone1.hk/"
+                href="/contact"
                 className="d-block font-color-medium"
            
               >

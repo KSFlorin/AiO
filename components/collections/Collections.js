@@ -51,9 +51,7 @@ class Collections extends Component {
           <div key={category.id} className="custom-container">
             <div className="row">
               <div className="col-2 d-none d-lg-block position-relative">
-                <p className="font-size-title font-weight-medium mb-3">
-                  {category.name}
-                </p>
+                
                 <Link href={`/collection#${category.slug}`}>
                   <a className="mb-5 font-color-black">
                     <div className="d-flex">
@@ -131,6 +129,7 @@ class Collections extends Component {
           <title>Collections</title>
         </Head>
         <div className="py-4">
+         
           {/* Sidebar */}
           <div
             ref={this.sidebar}
