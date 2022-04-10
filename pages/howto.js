@@ -27,7 +27,7 @@ const Howto = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100 ">
             <div className="d-flex align-items-center justify-content-center h-100">
-               <img src="/images/step-1.jpg" class="img-fluid"  alt="Step-1"/>
+               <img src="/images/step-1.jpg" className="img-fluid"  alt="Step-1"/>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ const Howto = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-           <img src="/images/step-1.jpg" class="img-fluid"  alt="Step-2"/>
+           <img src="/images/step-1.jpg" className="img-fluid"  alt="Step-2"/>
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ const Howto = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-            <img src="/images/step-1.jpg" class="img-fluid"  alt="Step-3"/>
+            <img src="/images/step-1.jpg" className="img-fluid"  alt="Step-3"/>
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Howto = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-            <img src="/images/step-1.jpg" class="img-fluid"  alt="Step-4"/>
+            <img src="/images/step-1.jpg" className="img-fluid"  alt="Step-4"/>
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@ const Howto = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-            <img src="/images/step-1.jpg" class="img-fluid"  alt="Step-5"/>
+            <img src="/images/step-1.jpg" className="img-fluid"  alt="Step-5"/>
             </div>
           </div>
         </div>
