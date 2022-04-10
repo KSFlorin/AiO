@@ -12,7 +12,8 @@ const Footer = () => (
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
              
-              <a
+
+           <a
                 href="https://allinone1.hk/"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
@@ -21,18 +22,7 @@ const Footer = () => (
                 About
               </a>
 
-
-              <a
-                href="https://allinone1.hk/"
-                className="mb-3 d-block font-color-medium"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Services
-              </a>
-
-
-
+               
 
 
             </div>
@@ -61,7 +51,7 @@ const Footer = () => (
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="https://Facebook.com/"
+                href="https://allinone1.hk/"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
