@@ -17,7 +17,7 @@ const Howto = () => (
                 Step 1
               </h2>
               <h4 className="font-size-subheader mb-4">
-                Take a photo of your desired item or use an existing photo from your camera roll to upload into the search bar. Then, within 5 minutes we'll show you listings that match the item you are looking for and their basic prices. 
+                Take a photo of your desired item or use an existing photo from your camera roll to upload into the search bar. Then, within 5 minutes we&apos;ll show you listings that match the item you are looking for and their basic prices. 
               </h4>
               
            
