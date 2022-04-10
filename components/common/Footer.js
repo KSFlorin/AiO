@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 
 const Footer = () => (
   <footer className="pt-5">
@@ -10,13 +11,12 @@ const Footer = () => (
           </p>
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
-              <a
-                href="/"
-                className="mb-3 d-block font-color-medium"
+             
+            <Link href="/">
+          <a>About</a>
+              </Link>
 
-              >
-                About
-              </a>
+
               <a
                 href="/"
                 className="d-block font-color-medium"
