@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link'
 
 const Footer = () => (
   <footer className="pt-5">
@@ -11,33 +10,37 @@ const Footer = () => (
           </p>
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
-             
-
-           <a
-                href="https://allinone1.hk/"
+              <a
+                href="https://www.allinone1.hk/"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 About
               </a>
-
-               
-
-
+              <a
+                href="https://www.allinone1.hk/"
+                className="d-block font-color-medium"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Our Services
+              </a>
             </div>
             <div>
               <a
-                href="/"
+                href="https://www.allinone1.hk/"
                 className="mb-3 d-block font-color-medium"
-            
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 How to Order
               </a>
               <a
-                href="/contact"
+                href="https://www.allinone1.hk/"
                 className="d-block font-color-medium"
-           
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Contact Us
               </a>
@@ -51,7 +54,7 @@ const Footer = () => (
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="https://allinone1.hk/"
+                href="https://www.allinone1.hk/"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -59,7 +62,7 @@ const Footer = () => (
                 Facebook
               </a>
               <a
-                href="https://www.instagram.com/"
+                href="https://www.allinone1.hk/"
                 className="d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -67,8 +70,9 @@ const Footer = () => (
                 Whatsapp
               </a>
             </div>
-            
-
+       
+              
+            </div>
           </div>
         </div>
 
@@ -89,7 +93,7 @@ const Footer = () => (
                 Facebook store
               </a>
               <a
-                href=" "
+                href="https://www.allinone1.hk/"
                 className="d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -122,7 +126,7 @@ const Footer = () => (
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
-              href=" https://www.allinone1.hk/"
+              href="https://www.allinone1.hk/"
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
               rel="noopener noreferrer"
