@@ -129,13 +129,15 @@ const Footer = () => (
       <div className="bg-brand300">
         <div className="custom-container d-flex flex-column flex-md-row align-items-center justify-content-between">
           <div className="pt-5 pb-0 pt-md-4 pb-md-4 d-flex align-items-center flex-wrap justify-content-center">
+         
+            
             <a
-              href="https://app.netlify.com/start/deploy?repository=https://github.com/chec/commercejs-nextjs-demo-store"
+              href="https://github.com/chec/commercejs-nextjs-demo-store"
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Deploy to Netlify
+             Follow us on Facebook
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
@@ -144,16 +146,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              Clone in GitHub
-            </a>
-            <p className="px-2 font-color-brand font-size-caption">-</p>
-            <a
-              href="https://github.com/chec/commercejs-nextjs-demo-store"
-              className="font-color-brand font-size-caption text-uppercase text-center"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Contribute
+              Terms of Service
             </a>
           </div>
           <div className="font-color-brand font-size-caption py-4 text-right">
@@ -163,7 +156,7 @@ const Footer = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              &copy; { new Date().getFullYear() } Chec/Commerce.js.
+              &copy; { new Date().getFullYear() } Allinone.
             </a>
           </div>
         </div>

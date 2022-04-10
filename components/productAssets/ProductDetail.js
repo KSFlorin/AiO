@@ -135,7 +135,7 @@ class ProductDetail extends Component {
         <p className="font-size-display3 font-family-secondary mt-2 mb-2">
           {name}
         </p>
-        <div className="mb-4 pb-3 font-size-subheader">{(description || '').replace(reg, '')}</div>
+        <div className="mb-40 pb-3 font-size-subheader">{(description || '').replace(reg, '')}</div>
 
         {/* Product Variant */}
           <div className="d-sm-block">

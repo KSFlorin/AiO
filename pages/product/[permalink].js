@@ -66,7 +66,7 @@ export default function Product() {
   return (
     <Root>
       <Head>
-        <title>{ product.name } | commerce</title>
+        <title>{ product.name } | Allinone</title>
       </Head>
 
       <div className="py-5 my-5">
@@ -132,7 +132,7 @@ export default function Product() {
       </div>
     </div>
 
-    <ClientReview />
+
     <SuggestedProducts />
     <ExploreBanner />
     <SocialMedia />

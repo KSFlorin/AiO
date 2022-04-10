@@ -16,7 +16,7 @@ export default connect(({ categories }) => ({ categories }))(
             <Link href={`/collection#${category.slug}`}>
               <a
                 style={{ 'fontWeight': current === category.id && 'bold' }}
-                key={category.id} className="pb-2 cursor-pointer font-color-black"
+                key={category.id} className="pb-1 cursor-pointer font-color-black"
               >
                 { category.name }<sup>{ category.products }</sup>
               </a>

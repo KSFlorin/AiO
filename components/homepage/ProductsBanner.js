@@ -9,7 +9,7 @@ class ProductsBanner extends Component {
     const { products } = this.props;
 
     return (
-      <div className="custom-container py-5 my-5">
+      <div className="custom-container py-1 my-1">
         <div className="d-flex flex-column align-items-center mb-5 pb-4">
           <p className="font-color-medium mb-4">
             Introducing Our Latest Products
@@ -27,7 +27,7 @@ class ProductsBanner extends Component {
             </a>
           </Link>
         </div>
-        <ProductRow products={products.slice(0, 4)} />
+        <ProductRow products={products.slice(0, 10)} />
       </div>
     );
   }
