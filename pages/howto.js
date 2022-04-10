@@ -9,28 +9,25 @@ const Howto = () => (
       <title>How to order | Allinone</title>
     </Head>
     <div className="about-container">
-      {/* Row */}
+      {/* Row 1 */}
       <div className="row mt-5 pt-5 about-hero">
         <div className="col-12 col-md-10 col-lg-6 offset-md-1 offset-lg-0 row-content">
             <div className="h-100 d-flex flex-column py-5 px-4 px-sm-5 justify-content-center">
               <h2 className="font-size-header mb-4">
-               Step 1
+                Step 1
               </h2>
               <h4 className="font-size-subheader mb-4">
-              Take a photo of your desired item or use an existing photo from your camera roll to upload into the search bar. Then, within 5 minutes we'll show you listings that match the item you are looking for and their basic prices. 
+                Take a photo of your desired item or use an existing photo from your camera roll to upload into the search bar. Then, within 5 minutes we'll show you listings that match the item you are looking for and their basic prices. 
               </h4>
-              <div className="about-cjs mt-3 d-flex flex-row">
-                
-                  
-
-              </div>
+              
+           
             </div>
           </div>
 
         <div className="col-12 col-lg-6">
-          <div className="about-image h-48">
-            <div className="d-flex align-items-center justify-content-center h-48">
-              <img src="/" alt="Allinone-About 1"/>
+          <div className="about-image h-100 ">
+            <div className="d-flex align-items-center justify-content-center h-100">
+               <img src="/images/step-1.jpg" alt="Step-1"/>
             </div>
           </div>
         </div>
@@ -41,7 +38,7 @@ const Howto = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/" alt="Allinone-About 2"/>
+           <img src="/images/step-1.jpg" alt="Step-2"/>
             </div>
           </div>
         </div>
@@ -86,7 +83,7 @@ const Howto = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/" alt="Allinone-About 1"/>
+            <img src="/images/step-1.jpg" alt="Step-3"/>
             </div>
           </div>
         </div>
@@ -99,7 +96,7 @@ const Howto = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/" alt="Allinone-About 2"/>
+            <img src="/images/step-1.jpg" alt="Step-4"/>
             </div>
           </div>
         </div>
@@ -138,7 +135,7 @@ const Howto = () => (
                  <div className="about-cjs mt-3 d-flex flex-row">
                 
             
-                <a className="px-4 py-3 about-dev" href="/" target="_blank" rel="noopener noreferrer">
+                <a className="px-4 py-3 about-dev" href="https:/" target="_blank" rel="noopener noreferrer">
                   Launch our Widget now.
                 </a>
 
@@ -153,10 +150,13 @@ const Howto = () => (
         <div className="col-12 col-lg-6">
           <div className="about-image h-100">
             <div className="d-flex align-items-center justify-content-center h-100">
-              <img src="/" alt="Allinone-About 1"/>
+            <img src="/images/step-1.jpg" alt="Step-5"/>
             </div>
           </div>
         </div>
+
+
+
       </div>
 
 

@@ -1,0 +1,17 @@
+.explore-banner2 {
+  .explore-banner2--image {
+    background: url("/images/allinone-2.jpeg") center center/cover;
+    padding-bottom: 100%;
+
+    @include md {
+      padding-bottom: 180%;
+    }
+    @include lg {
+      padding-bottom: 144%;
+    }
+
+    @include xl {
+      padding-bottom: 112%;
+    }
+  }
+}

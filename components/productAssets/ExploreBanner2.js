@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-export default class ExploreBanner extends React.Component {
+export default class ExploreBanner2 extends React.Component {
   constructor(props) {
     super(props);
 
@@ -56,8 +56,7 @@ export default class ExploreBanner extends React.Component {
                     <div className="position-md-absolute right-0 left-0 bottom-0">
                       <div
                         ref={this.image}
-                        className="explore-banner--image"
-                      />
+                                       />
                     </div>
                   </div>
                 </div>

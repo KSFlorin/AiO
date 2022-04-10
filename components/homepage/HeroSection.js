@@ -38,14 +38,14 @@ export default function HeroSection() {
               }}
             >
               <p className="font-size-display5 font-family-secondary mb-4 text-center hero-header">
-                The care you&apos;ve always needed
+                A new shopping experience, upload a photo and we find the best deal.
               </p>
               <p className="text-transform-uppercase font-size-title mb-5 hero-subheader">
-                A range of products for you
+                  Try our sourcing widget or go to our How to page.
               </p>
-              <Link href="/collection">
+              <Link href="https://tripetto.app/run/3WRVGI02DK">
                 <a className="d-flex align-items-center bg-transparent border border-color-white h-56 px-5 font-color-white hero-btn">
-                  Shop now
+                  Order Now
                 </a>
               </Link>
             </div>
