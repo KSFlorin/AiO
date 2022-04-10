@@ -11,7 +11,7 @@ const Footer = () => (
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="https://commercejs.com/docs/"
+                href="/about"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -19,7 +19,7 @@ const Footer = () => (
                 About
               </a>
               <a
-                href="https://commercejs.com/features"
+                href="/services"
                 className="d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -29,7 +29,7 @@ const Footer = () => (
             </div>
             <div>
               <a
-                href="https://commercejs.com/about"
+                href="/howto"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -37,7 +37,7 @@ const Footer = () => (
                 How to Order
               </a>
               <a
-                href="http://slack.commercejs.com/"
+                href="/contact"
                 className="d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -70,24 +70,8 @@ const Footer = () => (
                 Whatsapp
               </a>
             </div>
-            <div>
-              <a
-                href="https://angel.co/company/chec"
-                className="mb-3 d-block font-color-medium"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Angel
-              </a>
-              <a
-                href="https://www.linkedin.com/company/chec-chec-commerce-inc.-/"
-                className="d-block font-color-medium"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-            </div>
+            
+
           </div>
         </div>
 
@@ -100,7 +84,7 @@ const Footer = () => (
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
               <a
-                href="https://twitter.com/commercejs"
+                href="/"
                 className="mb-3 d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -108,7 +92,7 @@ const Footer = () => (
                 Facebook store
               </a>
               <a
-                href="https://www.instagram.com/commerce.js/"
+                href="/"
                 className="d-block font-color-medium"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -132,7 +116,7 @@ const Footer = () => (
          
             
             <a
-              href="https://github.com/chec/commercejs-nextjs-demo-store"
+              href=""
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
               rel="noopener noreferrer"
@@ -141,7 +125,7 @@ const Footer = () => (
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
-              href="https://github.com/chec/commercejs-nextjs-demo-store"
+              href="/terms-of-service"
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
               rel="noopener noreferrer"
@@ -151,7 +135,7 @@ const Footer = () => (
           </div>
           <div className="font-color-brand font-size-caption py-4 text-right">
           <a
-              href="https://commercejs.com/"
+              href="/"
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
               rel="noopener noreferrer"

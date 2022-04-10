@@ -11,16 +11,12 @@ export default function HomeBanner3() {
 
       Why shop for your desired items all over the internet? When you can get them all in one.
 
-      Shop,
-      Facebook,
-      Widget, 
-
 
       </p>
       <div className="d-flex align-items-center justify-content-center mt-3 mb-5">
-        <Link href="/about">
+        <Link href="/">
           <a className="d-flex py-3 align-items-center font-color-black borderbottom border-color-black">
-            <p className="mr-3"> Our Ser</p>
+            <p className="mr-3"> Our Services</p>
             <img src="/icon/arrow-long-right.svg" />
           </a>
         </Link>

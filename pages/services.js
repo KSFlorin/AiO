@@ -16,9 +16,12 @@ const Our = () => (
       <title>Our Services | Allinone</title>
     </Head>
 
+
+     <SocialMedia/>
     <ExploreBanner2/>  
     <HomeBanner3 />
-    <ProductsBanner />
+      <SocialMedia />
+
     
     <Footer />
   </Root>
