@@ -85,7 +85,7 @@ class CarouselImages extends Component {
               ref={image => this.carouselImages.push(image)}
               key={`carousel-side-images-${index}`}
               data-key={`carousel-side-images-${index}`}
-              className="h-56 w-48 mb-3 cursor-pointer"
+              className="h-5 w-4 mb-3 cursor-pointer"
               onClick={this.onClickImage.bind(this, index)}
               style={{
                 background: `url("${image}") center center/cover`,

@@ -201,10 +201,10 @@ class Header extends Component {
           }`}
         >
           <div className="d-none d-sm-flex">
-            <Link href="/collection">
+            <Link href="https://tripetto.app/run/3WRVGI02DK" target="_blank">
               <a className="mr-4 font-color-black">Upload a photo</a>
             </Link>
-            <Link href="/about">
+            <Link href="https://www.facebook.com/consumergoodsliamnaude" target="_blank" >
               <a className="font-color-black">Facebook </a>
             </Link>
           </div>
@@ -212,13 +212,13 @@ class Header extends Component {
             <img
               src={`/icon/${showMobileMenu ? 'cross' : 'menu'}.svg`}
               onClick={this.toggleMobileMenu}
-              className="w-32 mr-1 d-block d-sm-none"
+              className="w-50 mr-1 d-block d-sm-none"
               alt="Menu icon"
             />
             <Link href="/">
               <a>
                 <img
-                  src="/images/commerce.svg"
+                  src="/images/commerce.jpg"
                   className="logo cursor-pointer"
                   alt="Logo"
                 />
