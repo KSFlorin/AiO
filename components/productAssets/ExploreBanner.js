@@ -46,7 +46,7 @@ export default class ExploreBanner extends React.Component {
   render() {
     return (
       <div className="py-5 mb-5 explore-banner">
-        <div className="bg-brand300 position-relative py-md-5">
+        <div className="bg-black position-relative py-md-5">
           {/* Image Absolute */}
           <div className="position-md-absolute left-0 bottom-0 right-0">
             <div className="custom-container px-0">
@@ -70,14 +70,14 @@ export default class ExploreBanner extends React.Component {
             <div className="row py-5">
               <div className="col-12 col-md-6 py-5">
                 <p
-                  className="font-size-display3 font-weight-light mb-4"
+                  className="font-size-display3 font-color-white mb-4"
                   style={{ maxWidth: '20rem' }}
                 >
                   The Allinone methode 
                 </p>
                 <div className="d-flex">
                   <Link href="/collection">
-                    <a className="d-flex py-3 align-items-center font-color-black borderbottom border-color-black">
+                    <a className="d-flex py-3 align-items-center font-color-white borderbottom border-color-white">
                       <p className="mr-3">How to Order</p>
                       <img src="/icon/arrow-long-right.svg" />
                     </a>

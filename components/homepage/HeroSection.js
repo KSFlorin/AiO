@@ -19,9 +19,7 @@ const params = {
 };
 const images = [
   '/images/home-1.jpeg',
-  '/images/home-2.jpg',
-  '/images/home-3.jpg',
-  '/images/home-4.jpg',
+  '/images/home-1.jpeg',
 ];
 
 export default function HeroSection() {
@@ -32,7 +30,7 @@ export default function HeroSection() {
         {images.map((image, index) => (
           <SwiperSlide key={image}>
             <div
-              className="hero-slide d-flex align-items-center justify-content-center flex-column font-color-white py-5"
+              className="hero-slide d-flex border-color-black align-items-center justify-content-center flex-column font-color-white py-5"
               style={{
                 backgroundImage: `url("${image}")`
               }}
