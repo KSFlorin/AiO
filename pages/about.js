@@ -64,7 +64,7 @@ I grew up in Cape Town South Africa before moving to Shanghai / Quanzhou China i
             <div className="mt-3">
            <a
                 className="px-4 py-3 flex-grow-1 font-color-white about-gb"
-                href="https://github.com/chec/commercejs-nextjs-demo-store"
+                href="https://wa.me/+8615618034279"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -93,7 +93,7 @@ Any questions please don’t hesitate to contact me.
             <div className="mt-3">
               <a
                 className="px-4 py-3 flex-grow-1 font-color-white about-gb"
-                href="https://github.com/chec/commercejs-nextjs-demo-store"
+                href="https://wa.me/+8615618034279"
                 target="_blank"
                 rel="noopener noreferrer"
               >
