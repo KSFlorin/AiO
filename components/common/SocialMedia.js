@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const imagesInfo = [
   {
-    image: '/images/insta/1.png',
+    image: '/images/insta/p4.png',
     translateRatio: -50
   },
   {
@@ -21,7 +21,7 @@ const imagesInfo = [
   {
     image: '/images/insta/p1.jpg',
     translateRatio: -80
-  }
+  },
 ];
 
 export default class SocialMedia extends React.Component {
@@ -82,12 +82,14 @@ export default class SocialMedia extends React.Component {
                 Follow us on Facebook for more updates and products.
               </p>
               <div className="d-flex">
-                <Link href="/about">
+              
+                <Link href="www.facebook.com/consumergoodsliamnaude"  passHref={true}>
                   <a className="d-flex py-3 align-items-center font-color-black borderbottom border-color-black">
                     <p className="mr-3">Follow us</p>
                     <img src="/icon/arrow-long-right.svg" alt="Arrow icon"/>
                   </a>
                 </Link>
+
               </div>
             </div>
           </div>

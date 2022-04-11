@@ -15,12 +15,11 @@ const Home = () => (
     <Head>
       <title>Home | Allinone</title>
     </Head>
-
     <HeroSection />
     <HomeBanner2 />
     <ExploreBanner />
     <ProductsBanner />
-    <SocialMedia />
+    <SocialMedia/>
     <Footer />
   </Root>
 );

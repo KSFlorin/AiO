@@ -76,10 +76,10 @@ export default class ExploreBanner extends React.Component {
                   The Allinone methode 
                 </p>
                 <div className="d-flex">
-                  <Link href="/collection">
+                  <Link href="/howto">
                     <a className="d-flex py-3 align-items-center font-color-white borderbottom border-color-white">
                       <p className="mr-3">How to Order</p>
-                      <img src="/icon/arrow-long-right.svg" />
+                      <img border-color-white src="/icon/arrow-long-right.svg" />
                     </a>
                   </Link>
                 </div>
